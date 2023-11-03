@@ -1,29 +1,27 @@
-Install .NET SDK:
+# Compiling and Running a C# Program
 
-If you don't have the .NET SDK installed, download and install it from the official website: https://dotnet.microsoft.com/download/dotnet.
-Create a C# File: Create or obtain a C# source code file using a text editor like Notepad, Visual Studio Code, or any other code editor.
+If you want to compile and run a C# program, follow these steps:
 
-Open Command Prompt or Terminal:
+1. **Install .NET SDK:**
 
-On Windows, press Win+R, type "cmd," and press Enter.
-On macOS or Linux, open the Terminal.
-Navigate to the Directory with Your C# File:
+   If you don't have the .NET SDK installed, download and install it from the official website: [Download .NET SDK](https://dotnet.microsoft.com/download/dotnet).
 
-Use the cd command to navigate to the directory where your C# file is located.
-Compile the C# File:
+2. **Create a C# File:**
 
-Use the csc command followed by your C# source file's name:
+   Create or obtain a C# source code file using a text editor like Notepad, Visual Studio Code, or any other code editor.
 
-Copy code
-csc YourFile.cs
-This will generate an executable file (e.g., YourFile.exe) in the same directory.
+3. **Open Command Prompt or Terminal:**
 
-Run the Compiled Program:
+   - On Windows, press Win+R, type "cmd," and press Enter.
+   - On macOS or Linux, open the Terminal.
 
-Type the name of the generated executable and press Enter:
+4. **Navigate to the Directory with Your C# File:**
 
-Copy code
-YourFile.exe
-Your C# program will run, and the output will be displayed in the command prompt.
+   Use the `cd` command to navigate to the directory where your C# file is located.
 
-These are the basic steps to open and compile a C# source code file. The exact steps may vary depending on your development environment and the specific requirements of your project.
+5. **Compile the C# File:**
+
+   Use the `csc` command followed by your C# source file's name:
+
+   ```bash
+   csc YourFile.cs
